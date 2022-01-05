@@ -1,5 +1,3 @@
-/* Change this file to get your personal Portfolio */
-
 // To change portfolio colors globally go to the  _globalColor.scss file
 
 import emoji from "react-easy-emoji";
@@ -29,8 +27,6 @@ const socialMediaLinks = {
     facebook: "https://www.facebook.com/kanishk20/",
     medium: "https://medium.com/@kanishktyagi200",
     instagram: "https://www.instagram.com/kanishk_.20/",
-    // Instagram, Twitter and Kaggle are also supported in the links!
-    // To customize icons and social links, tweak src/components/SocialMedia
     display: true // Set true to display this section, defaults to false
 };
 
@@ -145,7 +141,7 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-    viewSkillBars: true, //Set it to true to show Proficiency Section
+    viewSkillBars: false, //Set it to true to show Proficiency Section
     experience: [{
             Stack: "Frontend/Design", //Insert stack or technology you have experience in
             progressPercentage: "90%" //Insert relative proficiency in percentage
@@ -170,7 +166,7 @@ const workExperiences = {
             role: "Software Engineer",
             company: "Facebook",
             companylogo: require("./assets/images/facebookLogo.png"),
-            date: "June 2018 – Present",
+            date: "June 2018 – 2024",
             desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
             descBullets: [
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
