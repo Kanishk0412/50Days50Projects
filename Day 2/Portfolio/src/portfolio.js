@@ -1,5 +1,3 @@
-/* Change this file to get your personal Portfolio */
-
 // To change portfolio colors globally go to the  _globalColor.scss file
 
 import emoji from "react-easy-emoji";
@@ -14,7 +12,7 @@ const greeting = {
     username: "Kanishk",
     title: "Hi all, I'm Kanishk",
     subTitle: emoji(
-        "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+        "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / React Native and some other cool libraries and frameworks."
     ),
     resumeLink: "https://drive.google.com/file/d/1sSUdalLQhatAc4hVP48g01MJdRa42uL1/view?usp=sharing", // Set to empty to hide the button
     displayGreeting: true // Set false to hide this section, defaults to true
@@ -29,8 +27,6 @@ const socialMediaLinks = {
     facebook: "https://www.facebook.com/kanishk20/",
     medium: "https://medium.com/@kanishktyagi200",
     instagram: "https://www.instagram.com/kanishk_.20/",
-    // Instagram, Twitter and Kaggle are also supported in the links!
-    // To customize icons and social links, tweak src/components/SocialMedia
     display: true // Set true to display this section, defaults to false
 };
 
@@ -45,7 +41,7 @@ const skillsSection = {
         ),
         emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
         emoji(
-            "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+            "⚡ Integration of third party services such as Firebase"
         )
     ],
 
@@ -72,7 +68,7 @@ https://fontawesome.com/icons?d=gallery */
             skillName: "reactjs",
             fontAwesomeClassname: "fab fa-react"
         },
-        {
+/*        {
             skillName: "nodejs",
             fontAwesomeClassname: "fab fa-node"
         },
@@ -80,6 +76,7 @@ https://fontawesome.com/icons?d=gallery */
             skillName: "swift",
             fontAwesomeClassname: "fab fa-swift"
         },
+*/
         {
             skillName: "npm",
             fontAwesomeClassname: "fab fa-npm"
@@ -117,10 +114,9 @@ const educationInfo = {
             logo: require("./assets/images/uiet-img.png"),
             subHeader: "Bachelors of Engineering in Biotechnology",
             duration: "November 2020 - Present",
-            desc: "Participated in the research of XXX and published 3 papers.",
+            desc: "Exploring Every Technology Domain.",
             descBullets: [
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+                "Working on Kidney Tumor Detection Research under DIC",
             ]
         },
         {
@@ -128,16 +124,16 @@ const educationInfo = {
             logo: require("./assets/images/annieBesant-img.png"),
             subHeader: "Higher Secondary Class (12th)",
             duration: "April 2019 - March 2020",
-            desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-            descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+            desc: "Secured 90% in Higher Secondary Class",
+            descBullets: ["Head Boy of the School"]
         },
         {
             schoolName: "K.L International School",
             logo: require("./assets/images/kl-img.png"),
             subHeader: "Senior Secondary Class",
             duration: "April 2017 - March 2018",
-            desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-            descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+            desc: "Secure 72% in Senior Secondary Class",
+            descBullets: ["Participated in many Cultural Fests and was a part of House Core Team"]
         }
     ]
 };
@@ -145,7 +141,7 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-    viewSkillBars: true, //Set it to true to show Proficiency Section
+    viewSkillBars: false, //Set it to true to show Proficiency Section
     experience: [{
             Stack: "Frontend/Design", //Insert stack or technology you have experience in
             progressPercentage: "90%" //Insert relative proficiency in percentage
@@ -167,29 +163,34 @@ const techStack = {
 const workExperiences = {
     display: true, //Set it to true to show workExperiences Section
     experience: [{
-            role: "Software Engineer",
-            company: "Facebook",
-            companylogo: require("./assets/images/facebookLogo.png"),
-            date: "June 2018 – Present",
-            desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            role: "Web Developer",
+            company: "Recyteq",
+            companylogo: require("./assets/images/recyteq.jpeg"),
+            date: "Jan 2020 – Present",
+            desc: "Vision: Transforming Human Hair into Plant Booster ",
             descBullets: [
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+                "Tech Stacks: HTML/CSS/React/Django",
             ]
         },
         {
             role: "Front-End Developer",
-            company: "Quora",
-            companylogo: require("./assets/images/quoraLogo.png"),
-            date: "May 2017 – May 2018",
-            desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            company: "Asian Fields",
+            companylogo: require("./assets/images/asian.png"),
+            date: "Nov 2021 – Jan 2022",
+            desc: "APCRC is an incorporated non-profit body established for the protection of the environment, the prevention of pollution and environmental degradation, the preparation of Environmental Plans for the management and protection of the environment. ",
+            descBullets: [
+                "Tech Stacks: HTML/CSS/React",
+            ] 
         },
         {
-            role: "Software Engineer Intern",
-            company: "Airbnb",
-            companylogo: require("./assets/images/airbnbLogo.png"),
-            date: "Jan 2015 – Sep 2015",
-            desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            role: "Technical Writing",
+            company: "TCR Innovation",
+            companylogo: require("./assets/images/tcr.jpeg"),
+            date: " Jun 2021 – Jul 2021",
+            desc: "Vision: Bridging the gap between the students and their knowledge in industrial field and bringing them a step closer to their dream",
+            descBullets: [
+                "Working Area: During my internship, I created new blogs about the latest technology and various coding languages.",
+            ]
         }
     ]
 };
@@ -228,7 +229,7 @@ const bigProjects = {
             }]
         }
     ],
-    display: true // Set false to hide this section, defaults to true
+    display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -279,7 +280,7 @@ const achievementSection = {
             ]
         }
     ],
-    display: true // Set false to hide this section, defaults to true
+    display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -289,17 +290,12 @@ const blogSection = {
     subtitle: "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
     displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
     blogs: [{
-            url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-            title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-            description: "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+            url: "https://medium.com/@kanishktyagi200/getting-started-with-c-programming-language-af61b1d0badc?source=user_profile---------0-------------------------------",
+            title: "Getting Started with C Programming Language",
+            description: "C programming is a middle-level, general-purpose computer programming language created by Dennis M. Ritchie....Read More"
         },
-        {
-            url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-            title: "Why REACT is The Best?",
-            description: "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
-        }
     ],
-    display: true // Set false to hide this section, defaults to true
+    display: true// Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -316,7 +312,7 @@ const talkSection = {
         slides_url: "https://bit.ly/saadpasta-slides",
         event_url: "https://www.facebook.com/events/2339906106275053/"
     }],
-    display: true // Set false to hide this section, defaults to true
+    display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -329,7 +325,7 @@ const podcastSection = {
     podcast: [
         "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
     ],
-    display: true // Set false to hide this section, defaults to true
+    display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
@@ -342,7 +338,7 @@ const contactInfo = {
 // Twitter Section
 
 const twitterDetails = {
-    userName: "twitter", //Replace "twitter" with your twitter username without @
+    userName: "Kanishk0412", //Replace "twitter" with your twitter username without @
     display: true // Set true to display this section, defaults to false
 };
 
