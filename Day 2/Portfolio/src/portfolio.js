@@ -112,7 +112,7 @@ const educationInfo = {
     schools: [{
             schoolName: "UIET Panjab University",
             logo: require("./assets/images/uiet-img.png"),
-            subHeader: "Bachelors of Engineering in Biotechnology",
+            subHeader: "Bachelors of Engineering",
             duration: "November 2020 - Present",
             desc: "Exploring Every Technology Domain.",
             descBullets: [
